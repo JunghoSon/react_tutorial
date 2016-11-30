@@ -13,4 +13,16 @@ class App extends React.Component {
     }
 }
 
+App.defaultProps = {
+    headerTitle: 'Default headerTitle',
+    contentTitle: 'Default ContentTitle',
+    contentBody: 'Default ContentBody'
+};
+
+// App.defaultProps = {
+//     headerTitle: 'Default headerTitle',
+//     contentTitle: 5,
+//     contentBody: undefined
+// };
+
 export default App;
