@@ -6,8 +6,8 @@ class App extends React.Component {
     render(){
         return(
             <div>
-                <Header/>
-                <Content/>
+                <Header title={this.props.headerTitle}/>
+                <Content title={this.props.contentTitle} body={this.props.contentBody}/>
             </div>
         );
     }
