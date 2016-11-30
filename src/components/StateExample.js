@@ -26,3 +26,5 @@ class StateExample extends React.Component {
         );
     }
 }
+
+export default StateExample;
